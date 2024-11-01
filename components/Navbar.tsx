@@ -9,10 +9,6 @@ import Button from './Button'
 const Navbar = () => {
 	const path = usePathname()
 
-	function handelLogin() {
-		console.log('log in clicked!')
-	}
-
 	return (
 		<header className='flexBetween max-container padding-container relative z-30 py-5 '>
 			<Link href={'/'}>
