@@ -41,7 +41,6 @@ const Navbar = () => {
 					title='login'
 					icon='/user.svg'
 					variant='btn_dark_green'
-					handelClick={handelLogin}
 				/>
 			</div>
 			{/* burger menu */}
