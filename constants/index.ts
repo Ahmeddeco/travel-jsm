@@ -1,11 +1,11 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
-];
+  { href: '/how-hilink-work', key: 'how_hilink_work', label: 'how-hilink-work' },
+  { href: '/services', key: 'services', label: 'services' },
+  { href: '/pricing', key: 'pricing ', label: 'pricing ' },
+  { href: '/contact', key: 'contact_us', label: 'contact' },
+]
 
 // CAMP SECTION
 export const PEOPLE_URL = [
@@ -13,7 +13,7 @@ export const PEOPLE_URL = [
   '/person-2.png',
   '/person-3.png',
   '/person-4.png',
-];
+]
 
 // FEATURES SECTION
 export const FEATURES = [
@@ -45,7 +45,7 @@ export const FEATURES = [
     description:
       'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
   },
-];
+]
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
@@ -64,7 +64,7 @@ export const FOOTER_LINKS = [
     title: 'Our Community',
     links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
   },
-];
+]
 
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
@@ -72,7 +72,7 @@ export const FOOTER_CONTACT_INFO = {
     { label: 'Admin Officer', value: '123-456-7890' },
     { label: 'Email Officer', value: 'hilink@akinthil.com' },
   ],
-};
+}
 
 export const SOCIALS = {
   title: 'Social',
@@ -83,4 +83,4 @@ export const SOCIALS = {
     '/youtube.svg',
     '/wordpress.svg',
   ],
-};
+}
